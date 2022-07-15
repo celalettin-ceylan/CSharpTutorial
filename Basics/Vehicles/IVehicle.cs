@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace Basics.Vehicles;
 
-internal interface Vehicle
+internal interface IVehicle
 {
     void launch();
     void stop();
+    void speedUp();
+    void speedDown();
 
 }
